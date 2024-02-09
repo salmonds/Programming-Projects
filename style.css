@@ -1,0 +1,53 @@
+
+body{
+    min-height: 100vh;
+    background: 
+  repeating-linear-gradient(
+    to right, transparent, 
+    transparent 50px, 
+    white 50px, 
+    white 55px
+  ),
+  repeating-linear-gradient(
+    to bottom, transparent,  
+    transparent 50px, 
+    white 50px, 
+    white 55px
+  ),
+  linear-gradient(45deg, rgb(201, 151, 224), rgb(193, 235, 233));
+  /* more styles */
+}
+
+h1, h2, h3, h4, h5, h6{
+    background-color: rgba(255, 255, 255, 0.568);
+    border-color: white;
+    border-radius: 1em;
+    border-style: dashed;
+    text-align: center;
+}
+
+nav{
+    background-color: aliceblue;
+    box-shadow: 5px 5px 5px rgba(14, 23, 26, 0.212);
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    color:black;
+}
+nav a:hover{
+    background-color: rgb(181, 202, 230);
+}
