@@ -14,17 +14,23 @@ body{
     white 50px, 
     white 55px
   ),
-  linear-gradient(45deg, rgb(201, 151, 224), rgb(193, 235, 233));
+  linear-gradient(45deg, rgb(241, 211, 255), rgb(199, 235, 233));
   /* more styles */
 }
 
 h1, h2, h3, h4, h5, h6{
-    background-color: rgba(255, 255, 255, 0.568);
-    border-color: white;
+    background-color: rgba(0, 0, 0, 0.339);
+    border-color: rgba(56, 56, 56, 0.514);
+    color: rgb(255, 255, 255);
     border-radius: 1em;
+    font-family: "Sixtyfour";
     border-style: dashed;
+    border-width: .2rem;
+    padding: 1.0rem;
     text-align: center;
 }
+
+
 
 nav{
     background-color: aliceblue;
